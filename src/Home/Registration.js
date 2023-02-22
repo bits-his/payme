@@ -32,8 +32,8 @@ export default function Registration() {
   return (
     <div>
         <Row>
-        <Col md={3}></Col>
-        <Col md={6}>
+        <Col md={2}></Col>
+        <Col md={8}>
       {/* <Container className=""> */}
         <Card className="app_card shadow  p-3">
           <CardBody>
@@ -127,7 +127,7 @@ export default function Registration() {
         </Card>
       {/* </Container> */}
         </Col>
-        <Col md={3}></Col>
+        <Col md={2}></Col>
         </Row>
     </div>
   );
