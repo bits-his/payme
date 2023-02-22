@@ -1,0 +1,50 @@
+/* .primary-button {
+  font-size: small;
+  background-image:linear-gradient(90deg,#702620, #EBB891);
+  border: none;
+  color: white;
+  
+} */
+
+.primary-button {
+  background-color: #6e012a;
+  color: white;
+  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+    5px 5px 9px rgba(94, 104, 121, 0.3);
+  padding: 7.5px 20px;
+  border: none;
+  /* height: 150px;
+  width: 150px; */
+  /* background: #DDE1E7; */
+  border-radius: 0;
+  font-weight: bold;
+  /* margin: 20px; */
+}
+.label {
+  font-size: 13px;
+  margin: 0;
+  color: #eab447;
+  color: #6e012a;
+}
+.input_field {
+  width: 100%;
+  /* height: 70%; */
+  border: 1px #e2e2e2 solid;
+}
+
+.input_field:focus {
+  outline: none;
+}
+.app_card {
+  border: none;
+  border-radius: 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  /* border-top-color: #6E012A; */
+  /* border-top-width: 2px; */
+  /* border-top-style: solid; */
+  height: 90vh;
+}
+.app_title {
+  color: #6e012a;
+}
