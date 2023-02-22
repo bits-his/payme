@@ -31,12 +31,15 @@ export default function Registration() {
 
   return (
     <div>
-      <Container className="mt-4">
+        <Row>
+        <Col md={3}></Col>
+        <Col md={6}>
+      {/* <Container className=""> */}
         <Card className="app_card shadow  p-3">
           <CardBody>
             <h4 className="app_title">Customer Registration</h4>
             <Row>
-              <Col md={4}>
+              <Col md={6}>
                 <Label className="label">First Name</Label>
                 <input
                   className="input_field"
@@ -46,7 +49,7 @@ export default function Registration() {
                   onChange={handleChange}
                 />
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <Label className="label">Last Name</Label>
                 <input
                   className="input_field"
@@ -56,7 +59,7 @@ export default function Registration() {
                   onChange={handleChange}
                 />
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <Label className="label">Phone No</Label>
                 <input
                   className="input_field"
@@ -66,7 +69,7 @@ export default function Registration() {
                   onChange={handleChange}
                 />
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <Label className="label">Email</Label>
                 <input
                   className="input_field"
@@ -76,7 +79,7 @@ export default function Registration() {
                   onChange={handleChange}
                 />
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <Label className="label">Address</Label>
                 <input
                   className="input_field"
@@ -86,7 +89,7 @@ export default function Registration() {
                   onChange={handleChange}
                 />
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <Label className="label">Date</Label>
                 <input
                   className="input_field"
@@ -96,7 +99,7 @@ export default function Registration() {
                   onChange={handleChange}
                 />
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <Label className="label">State</Label>
                 <input
                   className="input_field"
@@ -106,7 +109,7 @@ export default function Registration() {
                   onChange={handleChange}
                 />
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <Label className="label">Local Government</Label>
                 <input
                   className="input_field"
@@ -122,7 +125,10 @@ export default function Registration() {
             </button>
           </CardBody>
         </Card>
-      </Container>
+      {/* </Container> */}
+        </Col>
+        <Col md={3}></Col>
+        </Row>
     </div>
   );
 }

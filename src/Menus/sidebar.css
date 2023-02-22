@@ -4,12 +4,12 @@
 }
 .paragrap{
     cursor: pointer;
-    color: #6E012A;
+    color: white;
     
 }
 .side_bar{
-    background-color: #F2A694;
-    height: 90%;
+    background-color: #6E012A;
+    height: 100vh;
     margin: 0;
     padding: 0%;
 }

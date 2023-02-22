@@ -4,8 +4,8 @@ import "./navbar.css";
 
 export default function Navbar() {
   return (
-    <div className="">
-      <div>Navbar</div>
+    <div className="nav_bar">
+      <div>PayMe</div>
     </div>
   );
 }

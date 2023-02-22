@@ -17,7 +17,7 @@
   width: 150px; */
   /* background: #DDE1E7; */
   border-radius: 0;
-  font-weight: bold;
+  /* font-weight: bold; */
   /* margin: 20px; */
 }
 .label {
@@ -29,6 +29,7 @@
 .input_field {
   width: 100%;
   /* height: 70%; */
+  padding: 8px;
   border: 1px #e2e2e2 solid;
 }
 
@@ -43,7 +44,7 @@
   /* border-top-color: #6E012A; */
   /* border-top-width: 2px; */
   /* border-top-style: solid; */
-  height: 90vh;
+  /* height: 95vh; */
 }
 .app_title {
   color: #6e012a;
